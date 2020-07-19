@@ -17,7 +17,7 @@ export class AccordianComponent implements OnInit {
   expandWrapper: ElementRef;
 
   @Input("expanded") expanded: boolean=false;
-  @Input("expandHeight") expandHeight: string = "500px";
+  @Input("expandHeight") expandHeight: string = "100%";
 
   icon: string = this.expanded?"chevron-forward-outline":"chevron-down-outline";
   accordionExapanded = this.expanded;
